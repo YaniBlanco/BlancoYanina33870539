@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+      body:before{
+          content: "";
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("./img/farmacia.jfif");
+          background-size: cover;
+          background-position: center;
+          z-index: -1;
+          opacity: 0.5;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+   
+  
+  
+    
+    .contenedor {
+      background-color: rgba(231, 225, 225, 0.7);
+      width:80%;
+      height: auto;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 110px;
+      justify-content: center;
+  
+    }
+
+       
+    
+
+    form {
+      
+      margin-bottom: 20px;
+      width: 900px;
+      height: auto;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+      width: 600px;
+    }
+    
+    label {
+      display: block;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="file"],
+    button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+      width: 100%;
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+#btnObtenerDescuento{
+      width: auto;
+      height: auto;
+      display:list-item;
+      font-size: 2rem;
+      text-align: center;
+      justify-content: center;
+      
+}
+
+
+    #btnVerDescuentos, #btnGuardarDatos, #btnCargarDatos{
+      background-color: #a6bb83;
+      width: 50%;
+      height: auto;
+      font-size: 1.6rem;
+      display:list-item;
+      text-align: center;
+      justify-content: center;
+      margin-block-start: 50px;
+      padding: 20px;
+    }
+    #btnVerDescuentos:hover{
+      background-color: #629163;
+    }
+    #btnFiltrarMenorPrecio, #btnOrdenarPorNombre{
+      background-color: #a6bb83;
+      width: 50%;
+      height: auto;
+      font-size: 1.6rem;
+      display:list-item;
+      text-align: center;
+      justify-content: center;
+    
+    }
+    #btnFiltrarMenorPrecio:hover, #btnOrdenarPorNombre:hover{
+      background-color: #629163;
+    }
+
+    
+    
+    button:hover {
+    background-color: #417a44;
+    }
+    
+   
+    
+    .contenedor h1{
+  
+      font-family: 'Comforter', cursive;
+      width: 100%;
+      font-size:6rem;
+      font-weight: 100;
+      text-align: center;
+      justify-content: center;
+      justify-self: center;
+  
+    }
+    .contenedor h2{
+      font-family: 'Comfortaa', cursive;
+      font-size: 1.2rem;
+      font-weight: 50;
+      padding: 40px;
+      align-self: center;
+      justify-content: center;
+      text-align: center;
+        
+           
+ }
+
+
