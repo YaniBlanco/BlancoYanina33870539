@@ -1,4 +1,38 @@
 
+document.addEventListener('DOMContentLoaded', function () {
+  // Obtenemos los datos del formulario de inicio de sesión
+  const nombreCompleto = localStorage.getItem('nombreCompleto');
+  const dni = localStorage.getItem('dni');
+  const obraSocial = localStorage.getItem('obraSocial');
+
+  // Buscamos el elemento en el que mostraremos los datos
+  const datosUsuario = document.getElementById('datosUsuario');
+
+  // Comprobamos si los datos existen en el almacenamiento local
+  if (nombreCompleto && dni && obraSocial) {
+    // Mostramos los datos en el elemento
+    datosUsuario.innerHTML = `Bienvenido/a, ${nombreCompleto}. DNI: ${dni}. Obra Social: ${obraSocial}.`;
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Objeto con info de usuario
 const usuario = {};
 
@@ -292,3 +326,4 @@ function cargarDatos() {
 // Llamamos a la función para cargar los datos cuando se haga click en el boton
 const btnCargarDatos = document.getElementById('btnCargarDatos');
 btnCargarDatos.addEventListener('click', cargarDatos);
+*/
